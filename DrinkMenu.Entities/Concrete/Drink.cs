@@ -6,7 +6,7 @@ using System.Text;
 namespace DrinkMenu.Entities.Concrete
 {
     public class Drink : IEntity
-    {
+    {   
         public int DrinkId { get; set; }
         public string Name { get; set; }
         public double perPackage { get; set; }
@@ -19,9 +19,9 @@ namespace DrinkMenu.Entities.Concrete
 
         public Drink(string name, double perPackage, decimal unitPrice)
         {
-            Name = name;
+            this.Name = name;
             this.perPackage = perPackage;
-            UnitPrice = unitPrice;
+            this.UnitPrice = unitPrice;
         }
 
         public override string ToString()

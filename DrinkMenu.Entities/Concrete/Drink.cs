@@ -26,7 +26,6 @@ namespace DrinkMenu.Entities.Concrete
 
         public override string ToString()
         {
-
             return  $"{DrinkId,-15}{Name,-15}{perPackage,-15}{UnitPrice,-15}";
         }
     }

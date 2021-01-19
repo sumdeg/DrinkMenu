@@ -16,7 +16,7 @@ namespace DrinkMenu.Business.CrossCuttingConcern.DependencyResolves.Ninject
         {
             Bind<IDrinkService>().To<DrinkManager>().InSingletonScope();
            // Bind<IDrinkDal>().To<EfDrinkDal>().InSingletonScope();
-          Bind<IDrinkDal>().To<AdoDrinkDal>().InSingletonScope();
+            Bind<IDrinkDal>().To<AdoDrinkDal>().InSingletonScope();
         }
     }
 }

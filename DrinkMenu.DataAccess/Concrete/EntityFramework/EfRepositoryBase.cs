@@ -24,9 +24,7 @@ namespace DrinkMenu.DataAccess.Concrete.EntityFramework
         {
             using (var context = new Tcontext())
             {
-
-              return context.Set<Tentity>().ToList();
-                    
+              return context.Set<Tentity>().ToList();                   
             }
         }
         public void Add(Tentity entity)

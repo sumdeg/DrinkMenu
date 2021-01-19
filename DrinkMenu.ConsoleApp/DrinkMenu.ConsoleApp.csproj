@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DrinkMenu.Business\DrinkMenu.Business.csproj" />
+    <ProjectReference Include="..\DrinkMenu.DataAccess\DrinkMenu.DataAccess.csproj" />
+    <ProjectReference Include="..\DrinkMenu.Entities\DrinkMenu.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
